@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #1b1726;
+}
+
+.centro {
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.bannerinicio{
+    background-image: url(/DesarrollodeSoftware/PAGINAWEB/imagenes/fondoxbox.jpg);
+    z-index: -1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.banner {  
+    position: absolute;
+    top: 0;
+    left: 0; 
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.banner .navbar ul li{
+    position: relative;
+    float: left;
+}
+
+.banner .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    display: block;
+}
+
+.banner .navbar ul li a:hover{
+    color: #A0c2fd;
+}
+
+.pantallaprincipal{
+    display: flex;
+}
+
+.mensajebienvenida {
+    flex-basis: 50%;
+}
+
+.mensajebienvenida h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+
+.mensajebienvenida span{
+    color: #A0c2fd;
+}
+
+.mensajebienvenida h3{
+    font-size: 17px;
+    color: #E0e0e0;
+    margin-bottom: 45px;
+}
+
+.botonesprincipales {
+    display: flex;
+} 
+
+.boton1{
+    padding: 11px 35px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.boton1:hover {
+    background-color: #A0c2fd;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.carta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta h2{
+    font-size: 2rem;
+}
+

@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    background-color: #1b1726;
+    padding-top: 2rem;
+}
+
+.bannerinicio{
+    position: relative;
+    float: left;
+}
+h1{
+    text-align: center;
+
+}
+img {
+    width: 320px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 5rem;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+.contenedor>div{
+    background-color: #c40951;
+    border-radius: 20px;
+}
+.contenedor>div:hover{
+    background-color: #99a3b3;
+}
+
+.informacion{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.informacion p:nth-child(1){
+    font-size: 30px;
+}
+
+
+.informacion .precio {
+    font-size: 20px;
+}
+.informacion .precio span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.informacion button{
+    background-color: #7e135e;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.informacion button:hover{
+    background-color: #2D4263;
+}
